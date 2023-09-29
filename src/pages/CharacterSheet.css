@@ -1,0 +1,35 @@
+.valid {
+    color: red;
+    cursor: pointer;
+}
+
+.invalid {
+    color: black;
+    cursor: pointer;
+}
+
+.char-data {
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    margin: 5px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.char-pane {
+    border: 2px black solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.char-name {
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 5px;
+}
